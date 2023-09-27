@@ -1,8 +1,8 @@
 def check_name(chel):
 	format = "Eto {0}"
 	match chel:
-		case("Ivan", 22):
-			return format.format(chel[0]) + " vahui"
+		case("Ivan", 22) as microchel:
+			return format.format(microchel[0]) + " vahui"
 		case("Ruslan", 29):
 			return format.format(chel[0])
 		case(name, 29):
